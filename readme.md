@@ -66,6 +66,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 Voor de eerste week heb ik de website van de IND uitgewerkt in de breakdownschets. 
 <img src="images/Schets.FrontendDevelopment.png" alt="Breakdownschets van de IND">
 
+De resultaten van het huiswerk van Codepen.
+<img src="images/1tm3" alt="Het huiswerk van week 1 op codepen.">
+<img src="images/4tm6" alt="Het huiswerk van week 1 op codepen.">
+
 
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-
