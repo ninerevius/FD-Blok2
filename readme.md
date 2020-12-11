@@ -38,11 +38,18 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Wat ging er goed?
+Het ging nog best goed om de opzet een beetje te maken.
+
+Wat ging er minder goed?
+Bij sommige stukjes code was het beter geweest als ik dergelijke dingen in bijvoorbeeld sections had moeten zetten. 
+Ik vind het bestwel moeilijk om de juiste handelingen te weten en vraag daarom ook veel hulp aan mijn medestudenten.
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent met korte uitleg-
+Op dit moment heb ik het eerste gedeelte een beetje op kunnen zetten. In principe is de website van de IND nog best te doen en denk ik dat dit een goede keus is voor mijn kunnen.
+
+<img src="images/screenv1.png" alt=" De voortgang.">
 
 ### Agenda voor meeting
 
