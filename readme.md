@@ -30,7 +30,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+Wat ging er goed?
+
+Op advies van Victor nog even met Javascript het menu wat mooier laten sluiten. Daarnaast de juiste elementen in de header zetten, omdat er nu veel in sections staat. Hamburger menu werkt nog niet bij de afspraak website, die moet nog werken. 
 
 
 
