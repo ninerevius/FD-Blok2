@@ -3,7 +3,7 @@ body {
 
 }
 
-.molenjonguuuh {
+.molen {
   background-image: url(https://ind.nl/PublishingImages/Nederlander_worden_thema.jpg);
   background-position: top center;
   background-repeat: no-repeat;
@@ -276,7 +276,16 @@ h2 {
 }
 
 #listAfsp ul {
-  list-style: dotted;
+  padding: 2em;
+  margin: 1em;
+}
+
+#listAfsp ul li {
+  padding: 1.5em;
+}
+
+#listAfsp ul li a {
+  color: black;
 }
 
 footer {
