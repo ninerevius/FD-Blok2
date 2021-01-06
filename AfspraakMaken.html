@@ -17,76 +17,100 @@
 
 <body>
     <header>
-		<section id='inloggen'>
-			<img id='inlogicoon' src="./images/icooninloggen.png" alt="icoon voor het inloggen">
-			<a href="">Inloggen</a>
-		</section>
-		<section id="logosection">
-		<a id='Logo' href="index.html"><img id='Logo' src="./images/logo-rijksoverheid.png" alt="Het logo van de Rijksoverheid"></a>
-		</section>
-		<img href=url(https://ind.nl/PublishingImages/Nederlander_worden_thema.jpg);> <nav class='navbar'>
-		<img id="hamb" src="./images/menu.png" alt="hamburger menu">
-		<p>
-			Menu
-		</p>
-		<a href=""><img id="zoek" src="./images/zoek.png" alt="zoek icoon"></a>
-		<ul class="opennav">
-			<li>
-				Home
-			</li>
-			<li>
-				EU
-			</li>
-			<li>
-				Familie
-			</li>
-			<li>
-				Studie
-			</li>
-			<li>
-				Werk
-			</li>
-			<li>
-				Uitwisseling
-			</li>
-			<li>
-				Kort verblijf
-			</li>
-			<li>
-				Asiel
-			</li>
-			<li>
-				Nederlandschap
-			</li>
-			<li>
-				Contact
-			</li>
-			<li>
-				Contact
-			</li>
-			<li>
-				Over IND
-			</li>
-			<li>
-				Vacatures
-			</li>
-		</ul>
-		</nav>
-		</section>
-		</nav>
-    <section id='coronavirus'>
+        <section class="inlogknop">
+            <img class='inlogicoon' src="./images/xxAnoniempje.png" alt="icoon voor het inloggen">
+            <a class="knopinloggen" href="#">Inloggen</a>
+            <section class='optiesvoorinloggen'>
+                <ul>
+                    <li>
+                        <a href="#"><span class="PersoonIcoon"></span>
+                            <p>Portaal zakelijk</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><span class="PersoonIcoon"></span>
+                            <p>Mijn IND</p>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <img class="engelsevlag" src="./images/eng.png" alt="Engelse vlag">
+        </section>
 
+
+
+        <section class="logosection">
+            <a class='Logo' href="index.html"><img class='Logo' src="./images/logo-rijksoverheid.png"
+                    alt="Het logo van de Rijksoverheid"></a>
+        </section>
+        <section class="luisterknop">
+			<img class="headset" src="./images/headset.png" alt="Icoon van een headset"><button class="wiezijnwijknop">Wie zijn wij?</button>
+			<audio class='audioIND' src="./images/WieZijnWij.m4a" controls></audio>
+		</section>
+        <img href=url(https://ind.nl/PublishingImages/Nederlander_worden_thema.jpg);> <nav class='navbar'>
+        <img class="hamburgermenu" src="./images/menu.png" alt="hamburger menu">
+        <p>
+            Menu
+        </p>
+        <a href="#"><img class="zoek" src="./images/zoek.png" alt="zoek icoon"></a>
+        <input class="zoekenweergeven" type="text" placeholder="zoeken..">
+        <ul class="opennav">
+            <li>
+                Home
+            </li>
+            <li>
+                EU
+            </li>
+            <li>
+                Familie
+            </li>
+            <li>
+                Studie
+            </li>
+            <li>
+                Werk
+            </li>
+            <li>
+                Uitwisseling
+            </li>
+            <li>
+                Kort verblijf
+            </li>
+            <li>
+                Asiel
+            </li>
+            <li>
+                Nederlandschap
+            </li>
+            <li>
+                Contact
+            </li>
+            <li>
+                Contact
+            </li>
+            <li>
+                Over IND
+            </li>
+            <li>
+                Vacatures
+            </li>
+        </ul>
+        </nav>
+    </header>
+
+    <section class='coronavirusintro'>
+        <img class="coronavirusicoon" src="./images/coronavirusicoon.png" alt="coronavirus icoon">
         <p>
             Coronavirus (COVID-19): Mogelijk is deze informatie niet actueel.
 
-            <a href="">
+            <a href="#">
                 Lees altijd de laatste informatie over de gevolgen van de coronamaatregelen voor uw aanvraag of
                 verblijf.
             </a>
         </p>
     </section>
 
-    <section id='AfspMkn'>
+    <section class='infoAfspraakMaken'>
         <h1>
             Afspraak maken met de IND
         </h1>
@@ -95,7 +119,7 @@
             bent en hoeft u niet te wachten.
         </p>
     </section>
-    <section id='listAfsp'>
+    <section class='listAfspraakMaken'>
         <ul>
             <li>
                 <h3>Biometrie (pasfoto, vingerafdrukken en handtekening)</h3>
@@ -115,26 +139,40 @@
             <li>
                 <h3> Sticker verblijfsaantekening</h3>
                 <p>
-                    Een verblijfsaantekening is een sticker die wordt geplakt in uw paspoort. De sticker is een bewijs
-                    dat u in Nederland uw procedure mag afwachten. Hierop staat ook of u mag werken. U kunt telefonisch
-                    een afspraak maken voor het ophalen van een verblijfsaantekening.
+                    Een <a href="#">verblijfsaantekening</a> is een sticker die wordt geplakt in uw paspoort. De sticker
+                    is een bewijs
+                    dat u in Nederland uw procedure mag afwachten. Hierop staat ook of u mag werken. U kunt <a
+                        href="#">telefonisch
+                        een afspraak maken</a> voor het ophalen van een verblijfsaantekening.
                     Let op: dit geldt nog niet voor afspraken die te maken hebben met een aanvraag toetsing aan het
                     EU-recht. Dit is een aanvraag voor een familielid van EU/EER-burger of Zwitser, of voor een ouder
                     van een minderjarig Nederlands kind. Geldt dit voor u? Dan kunt u nog geen afspraak maken. Als dit
                     weer kan, leest u het hier.
                 </p>
+                <p><i>Let op: dit geldt nog niet voor afspraken die te maken hebben met een aanvraag toetsing aan het
+                        EU-recht. Dit is een aanvraag voor een <a href="#">familielid van EU/EER-burger of Zwitser,</a>
+                        of voor een <a href="#">ouder van een minderjarig Nederlands kind.</a> Geldt dit voor u? Dan
+                        kunt u nog geen afspraak maken. Als dit weer
+                        kan, leest u het hier.
+                    </i></p>
             </li>
             <li>
                 <h3>Terugkeervisum</h3>
                 <p>
                     Wilt u naar het buitenland reizen en hebt u tijdelijk geen geldige verblijfsvergunning? Dan hebt u
-                    soms een terugkeervisum nodig om weer naar Nederland te reizen. U kunt telefonisch een afspraak
-                    maken voor het aanvragen van een terugkeervisum.
+                    soms een <a href="#">terugkeervisum</a> nodig om weer naar Nederland te reizen. U kunt
+                    <a href="#">telefonisch een afspraak maken</a> voor het aanvragen van een terugkeervisum.
                     Let op: dit geldt nog niet voor afspraken die te maken hebben met een aanvraag toetsing aan het
                     EU-recht. Dit is een aanvraag voor een familielid van EU/EER-burger of Zwitser, of voor een ouder
                     van een minderjarig Nederlands kind. Geldt dit voor u? Dan kunt u nog geen afspraak maken. Als dit
                     weer kan, leest u het hier.
                 </p>
+                <p><i>Let op: dit geldt nog niet voor afspraken die te maken hebben met een aanvraag toetsing aan het
+                        EU-recht. Dit is een aanvraag voor een <a href="#">familielid van EU/EER-burger of Zwitser,</a>
+                        of voor een <a href="#">ouder van een minderjarig Nederlands kind.</a> Geldt dit voor u? Dan
+                        kunt u nog geen afspraak maken. Als dit weer
+                        kan, leest u het hier.
+                    </i></p>
             </li>
             <li>
                 <h3>DNA-onderzoek</h3>
@@ -145,40 +183,42 @@
                     Het is op dit moment helaas niet mogelijk om online of telefonisch een afspraak te maken voor een
                     DNA-onderzoek. Zodra dit wel weer kan, leest u dit hier.
                 </p>
+                <p><i>Het is op dit moment helaas niet mogelijk om online of telefonisch een afspraak te maken voor een
+                        DNA-onderzoek. Zodra dit wel weer kan, leest u dit hier.</i></p>
             </li>
         </ul>
     </section>
     </main>
     <footer>
-        <section id='footerlist'>
+        <section>
             <ul>
                 <li>
-                    <a href="">Over IND</a>
+                    <a href="#">Over IND</a>
                 </li>
                 <li>
-                    <a href="">Privacy</a>
+                    <a href="#">Privacy</a>
                 </li>
                 <li>
-                    <a href="">Cookies</a>
+                    <a href="#">Cookies</a>
                 </li>
                 <li>
-                    <a href="">Toegangkelijkheid</a>
+                    <a href="#">Toegangkelijkheid</a>
                 </li>
                 <li>
-                    <a href="">Disclaimer</a>
+                    <a href="#">Disclaimer</a>
                 </li>
                 <li>
-                    <a href="">Contact</a>
+                    <a href="#">Contact</a>
                 </li>
                 <li>
-                    <a href="">Pers en Media</a>
+                    <a href="#">Pers en Media</a>
                 </li>
                 <li>
-                    <a href="">Sitemap</a>
+                    <a href="#">Sitemap</a>
                 </li>
             </ul>
         </section>
-        <img id='social' src="./images/linkjes.png">
+        <img class='social' src="./images/linkjes.png">
 
     </footer>
     <script src="./scripts/script.js"></script>

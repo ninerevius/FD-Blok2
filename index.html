@@ -17,19 +17,41 @@
 
 <body>
 	<header>
-		<section id='inloggen'>
-			<img id='inlogicoon' src="./images/icooninloggen.png" alt="icoon voor het inloggen">
-			<a href="">Inloggen</a>
+		<section class="inlogknop">
+			<img class='inlogicoon' src="./images/xxAnoniempje.png" alt="icoon voor het inloggen">
+			<a class="knopinloggen" href="#">Inloggen</a>
+			<section class='optiesvoorinloggen'>
+				<ul>
+					<li>
+						<a href="#"><span class="PersoonIcoon"></span>
+							<p>Portaal zakelijk</p>
+						</a>
+					</li>
+					<li>
+						<a href="#"><span class="PersoonIcoon"></span>
+							<p>Mijn IND</p>
+						</a>
+					</li>
+				</ul>
+			</section>
+			<img class="engelsevlag" src="./images/eng.png" alt="Engelse vlag">
 		</section>
-		<section id="logosection">
-			<a id='Logo' href="index.html"><img id='Logo' src="./images/logo-rijksoverheid.png" alt="Het logo van de Rijksoverheid"></a>
+		<section class="logosection">
+			<a class='Logo' href="index.html"><img class='Logo' src="./images/logo-rijksoverheid.png"
+					alt="Het logo van de Rijksoverheid"></a>
+		</section>
+		<section class="luisterknop">
+			<img class="headset" src="./images/headset.png" alt="Icoon van een headset"><button
+				class="wiezijnwijknop">Wie zijn wij?</button>
+			<audio class='audioIND' src="./images/WieZijnWij.m4a" controls></audio>
 		</section>
 		<img href=url(https://ind.nl/PublishingImages/Nederlander_worden_thema.jpg);> <nav class='navbar'>
-		<img id="hamb" src="./images/menu.png" alt="hamburger menu">
+		<img class="hamburgermenu" src="./images/menu.png" alt="hamburger menu">
 		<p>
 			Menu
 		</p>
-		<a href=""><img id="zoek" src="./images/zoek.png" alt="zoek icoon"></a>
+		<a href="#"><img class="zoek" src="./images/zoek.png" alt="zoek icoon"></a>
+		<input class="zoekenweergeven" type="text" placeholder="zoeken..">
 		<ul class="opennav">
 			<li>
 				Home
@@ -72,53 +94,59 @@
 			</li>
 		</ul>
 		</nav>
-		<section class="molen">
+		<section class="molenachtergrond">
 		</section>
-		</nav>
 	</header>
 	<main>
-		<section id="menu01">
+		<section class="hoofdmenu">
 			<ul>
-				<li><img id='af' src="./images/AfspraakMaken.png" alt="Icoon voor afspraak maken"><a
-						href="AfspraakMaken.html">Afspraak
-						Maken</a></li>
-				<li><img id='aa' src="./images/Aanvragen.png" alt="Icoon voor aanvragen"><a href="">Aanvragen</a></li>
-				<li><img id='va' src="./images/VerleningAsiel.png" alt="Icoon voor verlening asiel"><a
-						href="">Verlenging
-						asiel</a></li>
-				<li><img id='br' src="./images/Brexit.png" alt="Icoon voor brexit"><a href="">Brexit</a></li>
-				<li><img id='co' src="./images/Coronavirus.png" alt="Icoon voor coronavirus"><a href="">Coronavirus</a>
+				<li><img class='iconenhoofdmenu' src="./images/AfspraakMaken.png" alt="Icoon voor afspraak maken"><a
+						class="titellabel" href="AfspraakMaken.html">Afspraak Maken</a><a class="uitleglabel" href="#">
+						> Plan uw online afspraak</a></li>
+				<li><img class='iconenhoofdmenu' src="./images/Aanvragen.png" alt="Icoon voor aanvragen"><a
+						href="#">Aanvragen</a><a class="uitleglabel" href="#"> > Aanvraagformulieren en uploaden extra
+						document </a></li>
+				<li><img class='iconenhoofdmenu' src="./images/VerleningAsiel.png" alt="Icoon voor verlening asiel"><a
+						href="#">Verlenging
+						asiel</a><a class="uitleglabel" href="#"> > Aanvraag verlenging of onbepaalde tijd asiel</a>
+				</li>
+				<li><img class='iconenhoofdmenu' src="./images/Brexit.png" alt="Icoon voor brexit"><a
+						href="#">Brexit</a><a class="uitleglabel" href="#"> > Regel uw verblijf na Brexit</a></li>
+				<li><img class='iconenhoofdmenucoronavirus' src="./images/Coronavirus.png"
+						alt="Icoon voor coronavirus"><a href="#">Coronavirus</a><a class="uitleglabel" href="#"> >
+						Gevolgen van COVID-19 voor uw
+						aanvraag of verblijf</a>
 				</li>
 			</ul>
 		</section>
 
-		<section id='nieuws'>
+		<section class='nieuws'>
 			<h2>Nieuws</h2>
-			<a href="">Taskforce werkt langer door om achterstanden asielaanvrgagen weg te werken</a>
+			<a href="#">Taskforce werkt langer door om achterstanden asielaanvrgagen weg te werken</a>
 			<p>18 november 2020</p>
-			<a href="">Wet inburgering wordt opnieuw uitgesteld</a>
+			<a href="#">Wet inburgering wordt opnieuw uitgesteld</a>
 			<p>18 november 2020</p>
-			<a href="">Asielinstroom in oktober 2020</a>
+			<a href="#">Asielinstroom in oktober 2020</a>
 			<p>17 november 2020</p>
-			<a href="">De Nieuwsbrief Zakelijk van 16 november 2020 staat nu online</a>
+			<a href="#">De Nieuwsbrief Zakelijk van 16 november 2020 staat nu online</a>
 			<p>16 november 2020</p>
-			<a href="">Nog duizenden in Nederland wonende Britten moeten Brexit-pas aanvragen</a>
+			<a href="#">Nog duizenden in Nederland wonende Britten moeten Brexit-pas aanvragen</a>
 			<p>16 november 2020</p>
 		</section>
-		<a id="MeerNieuws" href="">Meer nieuws</a>
+		<a class="MeerNieuws" href="#">Meer nieuws</a>
 
-		<section id="vacatures">
+		<section class="vacatures">
 			<h2>Vacatures</h2>
 			<p>Interesse in werken bij de IND?</p>
 			<ul>
 				<li>
 					De vacatures bij de IND en informatie over de Rijksoverheid als werkgever vindt u op <a
-						href="">Werken voor
+						href="#">Werken voor
 						Nederland.</a>
 				</li>
 				<li>
-					Op zoek naar een stage bij de Rijksoverheid? <a href="">Werken voor Nederland.</a>
-					<a href="">Bekijk de stagemogelijkheden.</a>
+					Op zoek naar een stage bij de Rijksoverheid? <a href="#">Werken voor Nederland.</a>
+					<a href="#">Bekijk de stagemogelijkheden.</a>
 				</li>
 			</ul>
 			<p>
@@ -130,7 +158,7 @@
 			</p>
 		</section>
 
-		<section id="contact">
+		<section class="contact">
 			<h2>Contact</h2>
 			<p>
 				Is de beslistermijn van uw aanvraag nog niet verlopen? Dan is uw aanvraag nog in behandeling. We kunnen
@@ -145,64 +173,129 @@
 
 		</section>
 
-		<section id="FAQ">
+		<section class="FAQ">
 			<h2>Meest gestelde vragen</h2>
 			<ul>
 				<li>
-					Hoe ver is de IND met mijn aanvraag?
+					<button class="AccordionInfoMenu">Hoe ver is de IND met mijn aanvraag?</button>
+					<section class="panel">
+						<p>​De IND doet geen uitspraken over de stand van zaken zolang er nog geen beslissing is genomen
+							op uw aanvraag. In de meeste gevallen geldt er een (wettelijke) beslistermijn. De IND mag
+							die gehele termijn gebruiken om uw aanvraag te behandelen.
+
+							Volg uw aanvraag in Mijn IND.
+
+							Hebt u geen DigiD? En is uw beslistermijn verlopen? Bel dan met de IND.
+
+							Hebt u asiel aangevraagd en wacht u op een beslissing? Meer informatie over de afhandeling
+							van asielaanvragen leest u op onze pagina over doorlooptijden.</p>
+					</section>
 				</li>
 				<li>
-					Ik wil een IND-loket bezoeken. Moet ik een afspraak maken?
+					<button class="AccordionInfoMenu">Ik wil een IND-loket bezoeken. Moet ik een afspraak
+						maken?</button>
+					<section class="panel">
+						<p>​Ja, u kunt alleen een IND-loket bezoeken als u een afspraak hebt gemaakt.
+							Voor een aantal producten en diensten moet u online een afspraak maken.</p>
+					</section>
 				</li>
 				<li>
-					Ik heb een aanvraag ingediend. Wanneer moet ik mijn biometrie laten afnemen?
+					<button class="AccordionInfoMenu">Ik heb een aanvraag ingediend. Wanneer moet ik mijn biometrie
+						laten
+						afnemen?</button>
+					<section class="panel">
+						<p>​​Als u (of uw referent) een aanvraag heeft ingediend, stuurt de IND u een
+							ontvangstbevestiging. Als u deze brief heeft ontvangen, maakt u zo snel mogelijk online een
+							afspraak voor het afnemen van uw biometrie (vingerafdrukken, foto en handtekening).</p>
+					</section>
 				</li>
 				<li>
-					Hoe kan ik de mederwerker bereiken die mijn aanvraag behandeld?
+					<button class="AccordionInfoMenu">Hoe kan ik de mederwerker bereiken die mijn aanvraag
+						behandeld?</button>
+					<section class="panel">
+						<p>Als u informatie wilt over uw aanvraag (voorwaarden, benodigde documenten, beslistermijn,
+							vragen over correspondentie) raden wij u eerst aan om onze website te raadplegen. Als u
+							aanvullende vragen hebt, belt u ons algemene informatienummer 0880 - 430 430 (lokaal tarief,
+							ma-vr van 9:00 tot 17:00). Hebt u een brief ontvangen van de medewerker die uw aanvraag
+							behandelt? Dan kunt u met specifieke vragen over uw lopende procedure direct contact opnemen
+							met deze medewerker. Bijvoorbeeld wanneer u bepaalde documenten niet tijdig kunt inleveren.
+							U vindt het telefoonnummer van de behandelend medewerker in deze brieven onder het kopje
+							‘Contactpersoon’.</p>
+					</section>
 				</li>
 				<li>
-					Heeft de IND mijn aanvraag ontvangen?
+					<button class="AccordionInfoMenu">Heeft de IND mijn aanvraag ontvangen?</button>
+					<section class="panel">
+						<p>​​​Als u een aanvraag naar de IND hebt gestuurd, dan krijgt u een ontvangstbevestiging
+							thuisgestuurd. In Mijn IND kunt u uw aanvraag volgen. Heeft uw aanvraag de status
+							'ontvangen'? Dan heeft de IND uw aanvraag ontvangen.
+
+							Heeft u na 10 werkdagen nog geen bericht ontvangen? Neem dan telefonisch contact op: 0880 -
+							430 430 (lokaal tarief, ma-vr van 9:00 tot 17:00). Belt u eerder, dan is de kans groot dat
+							uw aanvraagformulier nog niet is verwerkt. We kunnen dan nog niet bevestigen of uw aanvraag
+							is ontvangen.</p>
+					</section>
 				</li>
 				<li>
-					Ik wil reizen, maar ik heb geen paspoort. Wat moet ik doen?
+
+					<button class="AccordionInfoMenu">Ik wil reizen, maar ik heb geen paspoort. Wat moet ik
+						doen?</button>
+					<section class="panel">
+						<p>​​Hebt u een geldige verblijfsvergunning? Dan kunt u in sommige gevallen een
+							vreemdelingenpaspoort krijgen. Bijvoorbeeld wanneer u van uw eigen land geen reisdocument
+							kunt krijgen. U kunt met het vreemdelingenpaspoort reizen naar alle landen, behalve uw land
+							van herkomst. Voor veel landen hebt u nog wel een visum nodig. Het paspoort vraagt u aan bij
+							uw gemeente.</p>
+					</section>
 				</li>
 				<li>
-					Kan ik in met geldige Nederlandse verblijfsvergunning in Europa reizen zonder visum
+					<button class="AccordionInfoMenu">Kan ik met een geldige Nederlandse verblijfsvergunning in Europa
+						reizen
+						zonder visum?</button>
+					<section class="panel">
+						<p>​​U kunt met uw Nederlandse verblijfsvergunning maximaal 90 dagen per 180 dagen zonder visum
+							in een ander Schengenland verblijven. U hebt daarvoor geen apart visum nodig. U moet wel uw
+							paspoort en uw geldige verblijfsvergunning bij u hebben. Uw verblijfsvergunning moet de hele
+							reis geldig zijn. Verloopt uw verblijfsvergunning tijdens uw reis? Vraag dan een
+							terugkeervisum aan voordat u vertrekt.
+
+							Reist u naar een ander land dan een Schengenland? Informeer dan bij de ambassade of het
+							consulaat van het land waar u heen gaat of u een visum nodig hebt.</p>
+					</section>
 				</li>
 			</ul>
 		</section>
-
 	</main>
 	<footer>
-		<section id="footerlist">
+		<section class="footerlist">
 			<ul>
 				<li>
-					<a href="">Over IND</a>
+					<a href="#">Over IND</a>
 				</li>
 				<li>
-					<a href="">Privacy</a>
+					<a href="#">Privacy</a>
 				</li>
 				<li>
-					<a href="">Cookies</a>
+					<a href="#">Cookies</a>
 				</li>
 				<li>
-					<a href="">Toegangkelijkheid</a>
+					<a href="#">Toegangkelijkheid</a>
 				</li>
 				<li>
-					<a href="">Disclaimer</a>
+					<a href="#">Disclaimer</a>
 				</li>
 				<li>
-					<a href="">Contact</a>
+					<a href="#">Contact</a>
 				</li>
 				<li>
-					<a href="">Pers en Media</a>
+					<a href="#">Pers en Media</a>
 				</li>
 				<li>
-					<a href="">Sitemap</a>
+					<a href="#">Sitemap</a>
 				</li>
 			</ul>
 		</section>
-		<img id="social" src="./images/linkjes.png">
+		<img class="social" src="./images/linkjes.png">
 
 	</footer>
 	<script src="./scripts/script.js"></script>

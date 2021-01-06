@@ -1,54 +1,167 @@
+/* Inhoudsopgave */
+/* CSS VOOR BEIDE PAGINA'S */
+/* CSS VOOR DE HOOFDPAGINA */
+/* CSS VOOR DE TWEEDE PAGINA */
+
+/* -------- CSS VOOR BEIDE PAGINA'S -------------------------------------------- */
+/* Code voor Beide pagina's */
+* {
+  margin: 0;
+  padding: 0;
+  cursor: url('../images/muis2.0.png'), auto;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 
 }
 
-.molen {
-  background-image: url(https://ind.nl/PublishingImages/Nederlander_worden_thema.jpg);
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: white;
-  height: 45vh;
-  width: 100%;
-}
-
-#inloggen a {
-  display: flex;
+/* Header inlogsection & icoon voor de taal voor beide pagina's */
+.engelsevlag {
   position: absolute;
-  left: 80%;
-  bottom: 95%;
-  font-family: 'Verdana', sans-serif;
+  float: right;
+  margin-left: 89%;
+  height: 1.5em;
+  width: 3em;
+  bottom: 97%;
+}
+
+.inlogicoon {
+  position: relative;
+  left: 2em;
+  margin-top: 0em;
+  height: 1em;
+  width: 1em;
+  margin-left: 49%;
+}
+
+.inlogknop a {
+  position: absolute;
   text-decoration: none;
-  color: rgb(87, 87, 87);
-  font-size: 0.8em;
+  color: rgb(100, 100, 100);
+  margin-left: 60%;
+  padding: 1em;
+  bottom: 95%;
 
 }
 
-#inloggen {
-  background-color: rgb(247, 245, 245);
-  padding: 0.5em;
+.inlogknop {
+  background-color: rgb(241, 241, 241);
 }
 
-#inlogicoon {
+.PersoonIcoon {
+  height: 2em;
+  width: 2em;
+}
+
+.inlogicoon {
   display: flex;
   position: relative;
-  left: 75%;
-  width: 1em;
-  height: 1.5em;
+  width: 1.1em;
+  height: 1.3em;
 
 }
 
+.optiesvoorinloggen ul li a {
+  margin: 0;
+}
 
-#Logo {
+.knopinloggen:hover+#optiesvoorinloggen {
+  display: block;
+}
+
+.optiesvoorinloggen li {
+  position: relative;
+  left: 30%;
+  list-style: none;
+  font-size: 12px;
+  margin: 0em 9em;
+  margin-right: 15em;
+  padding: 1.5em;
+  top: 4em;
+  background-color: white;
+  border-style: solid 1px;
+}
+
+.optiesvoorinloggen {
+  display: none;
+}
+
+.hoveroveroptiesvoorinloggen {
+  display: block;
+}
+
+.optiesvoorinloggen li a img {
+  color: black;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.optiesvoorinloggen li a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  color: black;
+}
+
+
+.optiesvoorinloggen li:hover a {
+  background-color: rgb(60, 4, 77);
+  color: white;
+}
+
+.opendropdown {
+  display: block;
+}
+
+.PersoonIcoon {
+  background-image: url(../images/Zakelijk.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 5vw;
+}
+
+/* Het logo voor beide pagina's */
+.Logo {
   height: 4.5em;
   width: auto;
   display: flex;
   position: relative;
-  left: 20%;
-  padding-bottom: 1em;
+  left: 15%;
 }
 
+/* geluidsknop voor beide pagina's */
+.luisterknop button {
+  position: relative;
+  margin-left: 75%;
+  top: 1.5em;
+  border-style: none;
+  padding: 0.5em;
+  background-color: white;
+}
+
+.luisterknop button:hover {
+  color: white;
+  padding: 0.5em;
+  background-color: rgb(60, 4, 77);
+  border-radius: 10px;
+}
+
+.headset {
+  position: relative;
+  height: 2em;
+  width: 2em;
+  left: 27em;
+}
+
+.audioIND {
+  display: none;
+}
+
+/* Navigatiebar met openklapbaar menu voor beide pagina's */
 .navbar {
   background-color: rgb(60, 4, 77);
   display: flex;
@@ -57,9 +170,6 @@ body {
   position: sticky;
   width: 100%;
   top: 0;
-
-
-
 }
 
 .navbar p {
@@ -68,35 +178,45 @@ body {
   color: rgb(255, 255, 255);
 }
 
-#hamb {
+.hamburgermenu {
   padding: 1em;
   left: 75%;
   width: 3em;
   height: 2em;
 }
 
-#zoek {
+.zoek {
   margin-right: 1em;
   width: 2em;
   height: 2em;
 
 }
 
+.zoekenweergeven {
+  position: absolute;
+  padding: 1em;
+  top: 4.7em;
+  right: 0%;
+  display: none;
+  z-index: 999;
+}
+
+.zoekenopenklappen {
+  display: block;
+}
+
 .opennav {
   position: absolute;
   width: 100%;
   height: 100%;
-  display: block;
+  display: none;
   z-index: 999;
   top: 4em;
-  left: 100vw;
-  transition: left 1s ease-in-out;
 }
 
-.joehoe {
-  left: 0;
+.menuopenen {
+  display: block;
 }
-
 
 .opennav li {
   list-style-type: none;
@@ -114,182 +234,7 @@ body {
 
 }
 
-#menu01 ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
-
-}
-
-#menu01 ul li {
-  padding: 1em;
-  margin: .25em 0;
-  background-color: rgb(243, 243, 243);
-  list-style: none;
-  font-size: 18px;
-  font-weight: 700;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
-
-#menu01 a {
-  color: black;
-  text-decoration: none;
-}
-
-#menu01 {
-  margin: -5em auto;
-  display: block;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-main {
-  padding: 1em;
-}
-
-#af {
-  width: 50px;
-  height: 50px;
-}
-
-#aa {
-  width: 50px;
-  height: 50px;
-}
-
-#va {
-  width: 50px;
-  height: 50px;
-}
-
-#br {
-  width: 50px;
-  height: 50px;
-}
-
-#co {
-  width: 65px;
-  height: 50px;
-}
-
-h2 {
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-
-#nieuws {
-  padding-top: 5em;
-}
-
-#nieuws a {
-  font-size: 20px;
-  font-weight: bold;
-  padding: 10px;
-  text-decoration: none;
-  color: black;
-}
-
-#nieuws p {
-  font-size: 18px;
-  font-weight: thin;
-  padding: 20px;
-  color: rgb(156, 156, 156);
-}
-
-#vacatures p {
-  padding: 1em;
-}
-
-#vacatures {
-  padding-left: 2em;
-}
-
-#vacatures ul li {
-  padding: 0.5em;
-}
-
-#vacatures a {
-  color: black;
-}
-
-#contact p {
-  padding: 1em;
-}
-
-#FAQ h2 {
-  color: white;
-  padding: 1em;
-}
-
-#FAQ {
-  background-color: rgb(77, 16, 95);
-}
-
-#FAQ li {
-  list-style-type: none;
-  color: black;
-  padding: 1em;
-  padding-left: 2em;
-}
-
-#FAQ li:nth-child(odd) {
-  background-color: rgb(240, 240, 240);
-}
-
-#FAQ li:nth-child(even) {
-  background-color: rgb(255, 255, 255);
-}
-
-#FAQ ul {
-  margin-left: 5%;
-  margin-bottom: 3em;
-}
-
-#coronavirus {
-  padding: 1em;
-}
-
-#coronavirus p {
-  background-color: rgb(228, 228, 228);
-  padding: 3em;
-}
-
-#coronavirus a {
-  color: black;
-}
-
-#AfspMkn h1 {
-  font-size: 1.5em;
-  padding: 1em;
-  font-weight: thin;
-}
-
-#AfspMkn p {
-  font-size: 1em;
-  margin: 1em;
-}
-
-#listAfsp ul {
-  padding: 2em;
-  margin: 1em;
-}
-
-#listAfsp ul li {
-  padding: 1.5em;
-}
-
-#listAfsp ul li a {
-  color: black;
-}
-
+/* Sectie footer voor beide pagina's*/
 footer {
   background-color: rgb(238, 238, 238);
   height: 20em;
@@ -300,7 +245,7 @@ footer section ul li a {
   text-decoration: none;
 }
 
-#footerlist ul {
+footer ul {
   margin: 0.1em;
   padding: 3em;
   display: grid;
@@ -308,20 +253,255 @@ footer section ul li a {
 
 }
 
-#footerlist ul li {
+footer ul li {
   margin: 0.5em;
   padding: 0;
   list-style: none;
 
 }
 
-#footerlist ul li a {
+footer ul li a {
   margin: 0.1em;
   padding: 0.5em;
 }
 
-#social {
+.social {
   margin-left: 40%;
   height: 3em;
   width: 8em;
+}
+
+/* -------- CSS VOOR DE HOOFDPAGINA -------------------------------------------- */
+/* Achtergrond afbeelding van de hoofdpagina */
+.molenachtergrond {
+  background-image: url(https://ind.nl/PublishingImages/Nederlander_worden_thema.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+  height: 45vh;
+  width: 100%;
+}
+
+/* hoofdmenu met kern categorieën van de hoofdpagina */
+.hoofdmenu ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+
+}
+
+.hoofdmenu ul li {
+  padding: 2em;
+  margin: .27em 0;
+  background-color: rgb(243, 243, 243);
+  list-style: none;
+  font-size: 1.4em;
+  font-weight: 1000;
+  font-weight: bold;
+
+}
+
+.hoofdmenu a {
+  color: black;
+  text-decoration: none;
+  padding-left: 1em;
+}
+
+.hoofdmenu a:hover {
+  color: rgb(118, 75, 131);
+  text-decoration: none;
+  padding-left: 1em;
+}
+
+.uitleglabel {
+  font-size: 14px;
+}
+
+.hoofdmenu {
+  margin: -5em auto;
+}
+
+main {
+  padding: 1em;
+}
+
+.iconenhoofdmenu {
+  width: 1.8em;
+  height: 1.8em;
+  float: left;
+}
+
+.iconenhoofdmenucoronavirus {
+  width: 2em;
+  height: 1.8em;
+  float: left;
+}
+
+.hoofdmenu a {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+}
+
+h2 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+/* Nieuws sectie van de hoofdpagina */
+.nieuws {
+  padding-top: 5em;
+}
+
+.nieuws a {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 1em;
+  text-decoration: none;
+  color: black;
+}
+
+.nieuws p {
+  font-size: 18px;
+  font-weight: thin;
+  padding: 20px;
+  color: rgb(156, 156, 156);
+}
+
+.MeerNieuws {
+  color: black;
+}
+
+/* Vacature sectie van de hoofdpagina */
+.vacatures p {
+  padding: 1em;
+}
+
+.vacatures {
+  padding-left: 2em;
+}
+
+.vacatures ul li {
+  padding: 0.5em;
+}
+
+.vacatures a {
+  color: black;
+}
+
+/* Contact sectie van de hoofdpagina */
+.contact p {
+  padding: 1em;
+}
+
+
+
+
+/* FAQ sectie van de hoofdpagina */
+.FAQ h2 {
+  color: white;
+  padding: 1em;
+}
+
+.FAQ {
+  background-color: rgb(77, 16, 95);
+}
+
+.FAQ li {
+  list-style-type: none;
+  color: black;
+  padding: 1em;
+  padding-left: 2em;
+}
+
+.FAQ li:nth-child(odd) {
+  background-color: rgb(240, 240, 240);
+}
+
+.FAQ li:nth-child(even) {
+  background-color: rgb(255, 255, 255);
+}
+
+.FAQ ul {
+  margin-left: 5%;
+  margin-bottom: 3em;
+}
+
+/* Sectie accordion van de hoofdpagina*/
+.AccordionInfoMenu {
+  background-color: rgba(red, rgba(0, 128, 0, 0), blue, alpha);
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  background: none;
+  font-size: 1em;
+}
+
+.hover,
+.AccordionInfoMenu:hover {
+  background-color: rgb(60, 4, 77);
+  color: white;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+}
+
+/* -------- CSS VOOR DE TWEEDE PAGINA -------------------------------------------- */
+/* Intro coronavirus sectie van de tweede pagina */
+.coronavirusintro {
+  padding: 1em;
+}
+
+.coronavirusicoon {
+  position: relative;
+  top: 8em;
+  width: 4em;
+  height: 4em;
+  left: 2em;
+}
+
+.coronavirusintro p {
+  background-color: rgb(240, 240, 240);
+  padding: 3em;
+  padding-left: 8em;
+}
+
+.coronavirusintro a {
+  color: black;
+}
+
+/* Informatie 'Afspraak Maken' sectie van de tweede pagina */
+.infoAfspraakMaken h1 {
+  font-size: 1.5em;
+  padding: 1em;
+  font-weight: thin;
+}
+
+.infoAfspraakMaken p {
+  font-size: 1em;
+  margin: 1em;
+}
+
+.listAfspraakMaken ul {
+  padding: 2em;
+  margin: 1em;
+}
+
+.listAfspraakMaken ul li {
+  padding: 1.5em;
+}
+
+.listAfspraakMaken ul li a {
+  color: black;
 }
