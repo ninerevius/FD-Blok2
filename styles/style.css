@@ -17,49 +17,30 @@ body {
 }
 
 /* Header inlogsection & icoon voor de taal voor beide pagina's */
-.engelsevlag {
-  position: absolute;
-  float: right;
-  margin-left: 89%;
-  height: 1.5em;
-  width: 3em;
-  bottom: 97%;
-}
-
-.inlogicoon {
-  position: relative;
-  left: 2em;
-  margin-top: 0em;
-  height: 1em;
-  width: 1em;
-  margin-left: 49%;
-}
-
-.inlogknop a {
-  position: absolute;
-  text-decoration: none;
-  color: rgb(100, 100, 100);
-  margin-left: 60%;
-  padding: 1em;
-  bottom: 95%;
-
-}
 
 .inlogknop {
   background-color: rgb(241, 241, 241);
-}
-
-.PersoonIcoon {
-  height: 2em;
-  width: 2em;
-}
-
-.inlogicoon {
+  width: 100%;
+  height: 100%;
   display: flex;
-  position: relative;
-  width: 1.1em;
-  height: 1.3em;
+  justify-content: flex-end;
+  align-items: center;
+}
 
+.knopinloggen {
+  color: rgb(100, 100, 100);
+  text-decoration: none;
+  position: relative;
+}
+
+.knopinloggen img {
+  width: 1em;
+  margin-right: .5em;
+}
+
+.engelsevlag {
+  width: 3em;
+  margin-left: 1em;
 }
 
 .optiesvoorinloggen ul li a {
@@ -70,58 +51,41 @@ body {
   display: block;
 }
 
-.optiesvoorinloggen li {
-  position: relative;
-  left: 30%;
-  list-style: none;
-  font-size: 12px;
-  margin: 0em 9em;
-  margin-right: 15em;
-  padding: 1.5em;
-  top: 4em;
-  background-color: white;
-  border-style: solid 1px;
-}
-
 .optiesvoorinloggen {
   display: none;
 }
 
 .hoveroveroptiesvoorinloggen {
   display: block;
+  position: absolute;
+  right: 0.25em;
+  top: 1.5em;
+  z-index: 100;
 }
 
-.optiesvoorinloggen li a img {
-  color: black;
-  display: flex;
-  align-items: center;
+.hoveroveroptiesvoorinloggen ul li {
+  list-style: none;
+  background: #FFF;
+  border-bottom: 1px solid #dddddd;
+}
+
+.hoveroveroptiesvoorinloggen ul li a {
   text-decoration: none;
-}
-
-.optiesvoorinloggen li a {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  text-decoration: none;
-  color: black;
-}
-
-
-.optiesvoorinloggen li:hover a {
-  background-color: rgb(60, 4, 77);
-  color: white;
-}
-
-.opendropdown {
+  color: #000;
+  background: #FFF;
+  padding: 0.25em 0.5em;
   display: block;
 }
 
-.PersoonIcoon {
-  background-image: url(../images/Zakelijk.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 5vw;
+.hoveroveroptiesvoorinloggen ul li a:hover {
+  background: rgb(60, 4, 77);
+  color: white;
+}
+
+.hoveroveroptiesvoorinloggen ul li a img {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.25em;
 }
 
 /* Het logo voor beide pagina's */
@@ -130,14 +94,16 @@ body {
   width: auto;
   display: flex;
   position: relative;
-  left: 15%;
+  margin-left: 15%;
 }
 
 /* geluidsknop voor beide pagina's */
+.luisterknop {
+  position: absolute;
+}
+
 .luisterknop button {
-  position: relative;
-  margin-left: 75%;
-  top: 1.5em;
+  margin-left: 75vw;
   border-style: none;
   padding: 0.5em;
   background-color: white;
@@ -154,7 +120,7 @@ body {
   position: relative;
   height: 2em;
   width: 2em;
-  left: 27em;
+  margin-left: 80vw;
 }
 
 .audioIND {
@@ -167,20 +133,19 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: sticky;
+  position: relative;
   width: 100%;
-  top: 0;
+  top: 4em;
 }
 
 .navbar p {
   position: absolute;
-  left: 5em;
+  margin-left: 5em;
   color: rgb(255, 255, 255);
 }
 
 .hamburgermenu {
   padding: 1em;
-  left: 75%;
   width: 3em;
   height: 2em;
 }
@@ -246,23 +211,15 @@ footer section ul li a {
 }
 
 footer ul {
-  margin: 0.1em;
-  padding: 3em;
+  padding: 2em;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-
 }
 
 footer ul li {
   margin: 0.5em;
   padding: 0;
   list-style: none;
-
-}
-
-footer ul li a {
-  margin: 0.1em;
-  padding: 0.5em;
 }
 
 .social {

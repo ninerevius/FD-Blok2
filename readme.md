@@ -10,6 +10,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 1. https://www.w3schools.com/howto/howto_css_searchbar.asp
 2. https://medium.com/@zac_heisey/      7-alternatives-to-the-div-html-tag-7c888c7b5036
 3. https://www.w3schools.com/howto/howto_js_accordion.asp
+4. https://www.creativebloq.com/how-to/create-a-responsive-layout-with-css-grid
 
 
 
