@@ -20,7 +20,15 @@ Ik vond het toch wel ontzettend lastig om alles op de juiste plek te krijgen en 
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+Screenshots hoofdpagina
+<img src="images/scherm1.png" alt=" Het eindresultaat van het hoofdscherm hierin is de header en het hoofdmenu weergeven.">
+<img src="images/scherm2.png" alt=" Het eindresultaat van het hoofdscherm hierin is de subkop 'Nieuws' en het subkopje 'Vacatures' gegeven.">
+<img src="images/scherm3.png" alt=" Het eindresultaat van het hoofdscherm hierin is contactinformatie weergeven, veelgestelde vragen en de footer.">
+
+Screenshots van de tweede pagina
+<img src="images/scherm 4.png" alt=" Het eindresultaat van het tweede scherm hierin is de header en aanvullende informatie over het coronavirus gegeven.">
+<img src="images/scherm 5.png" alt=" Het eindresultaat van de tweede pagina met informatie omtrent documentatie gegeven.">
+<img src="images/scherm 6.png" alt=" Het eindresultaat van het tweede scherm weergeven met het subkopje DNA onderzoek en de footer.">
 
 
 
